@@ -7,3 +7,8 @@ function setup()
     poseNet = ml5.posenet(video, modelLoaded);
     poseNet.on('pose', gotPoses);
 }
+
+function modelLoaded()
+{
+    console.log('Model Loaded!');
+}
