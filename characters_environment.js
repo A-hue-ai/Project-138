@@ -1,3 +1,2 @@
 noseX = "";
 noseY = "";
-
